@@ -118,7 +118,6 @@ def time_stats(df):
     most_common_hour = df['hour'].mode()[0]
     
     print('The most common month is: {0}\nThe most common day is: {1}\nThe most common start hour is: {2}'.format(mode_month,most_common_day,most_common_hour).title())
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -139,7 +138,6 @@ def station_stats(df):
     Most_Frequent_Combo = df['Start & End Station'].mode()[0]
     
     print('The most common start station is: {0}\nThe most common end station is: {1}\nThe most common combo is: {2}'.format(Start_Station,End_Station,Most_Frequent_Combo))
-    
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
  
