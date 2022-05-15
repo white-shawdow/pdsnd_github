@@ -18,5 +18,5 @@ At the end of the script the user has the option to view the raw data five rows 
 * washington.csv (pulled from US Bikeshare)
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
 
+Thank you to all of the Udacity teachers who helped make this possible!
